@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400&display=swap');
+
+
+*{
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white;
+  position: relative;
+}
+.footer{
+  position: absolute;
+  text-align: center;
+  background-color: rgb(233, 245, 255, 1);
+  height: 130px;
+  color: rgb(98, 106, 124);
+  width: 100%;
+  bottom: -300px;
+}
+.footer p{
+  padding-top: 32.5px;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+.footer a{
+  text-decoration: none;
+  color: rgba(37, 145, 255, 0.70);
+}
+.container{
+  margin: auto;
+  width: 295px;
+  margin-top: 50px;
+}
+h1{
+  font-weight: 900;
+}
+.logo-container{
+  padding: 5px;
+  width: 150px;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+#logo{
+  width: 130px;
+  height: 60px;
+  padding-left: 10px;
+}
+.error-login-notice{
+  margin: auto;
+  color: red;
+  text-align: center;
+  background-color: rgba(255, 37, 37, 0.23);
+  box-shadow: 0 0 0 3px rgba(255, 37, 37, 0.10);
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 30px;
+  width: 291px;
+  border-radius: 10px;
+  height: 37px;
+  padding-top: 17px;
+  opacity: 0;
+  transition: 1s;
+}
+input{
+  margin-top: 15px;
+  width: 283px;
+  height: 55px;
+  border-radius: 17px;
+  padding-left: 10px;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  background-color: rgba(37, 145, 255, 0.10);
+  
+}
+input:hover{
+  box-shadow: 0 0 0 2px rgba(0, 111, 243, 0.35);
+}
+#email-label{
+  position: absolute;
+  margin-top: 34px;
+  color: grey;
+  margin-left: 30px;
+  width: 130px;
+  background-color: transparent;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.2s;
+  user-select: none;
+}
+#password-label{
+  position: absolute;
+  margin-top: 34px;
+  color: grey;
+  margin-left: 20px;
+  width: 85px;
+  background-color: transparent;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.2s;
+  user-select: none;
+}
+
+#email-label-on-input{
+  position: absolute;
+  margin-top: 7px;
+  color: grey;
+  width: 125px;
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  transition: 0.2s;
+  margin-left: 30px;
+  border-radius: 4px;
+  user-select: none;
+  box-shadow: 0 0 0 2px rgba(0, 111, 243, 0.35);
+}
+#password-label-on-input{
+  position: absolute;
+  margin-top: 7px;
+  color: grey;
+  width: 85px;
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  transition: 0.2s;
+  border-radius: 4px;
+  margin-left: 30px;
+  user-select: none;
+  box-shadow: 0 0 0 2px rgba(0, 111, 243, 0.35);
+}
+input[type=submit]{
+  margin-top: 15px;
+  height: 55px;
+  width: 295px;
+  font-weight: 500;
+  background-color: rgba(37, 145, 255, 1);
+  color: white;
+  transition: 0.1s;
+  border: none;
+  box-shadow: none;
+  font-size: 14px;
+  padding-top: 0;
+}
+input[type=submit]:active{
+  background-color: white;
+  color: rgba(37, 145, 255, 1);
+}
+.switch p{
+  margin: auto;
+  margin-left: 11px;
+  margin-right: 0px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: grey;
+}
+.container-switch{
+  width: 55px;
+  height: 25px;
+  background-color: rgba(175, 175, 175, 1);
+  margin: auto;
+  border-radius: 100px;
+  position: relative;
+  transition: 0.2s;
+}
+.container-switch:hover{
+  box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.12);
+}
+.cycle-switch{
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  margin-top: 3.4px;
+  margin-left: 4.2px;
+  position: absolute;
+  border-radius: 100%;
+  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.34);
+  transition: 0.2s ease-in-out;
+}
+.cycle-switch-on{
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  margin-top: 3.4px;
+  margin-left: 33px;
+  position: absolute;
+  border-radius: 100%;
+  transition: 0.2s ease-out;
+  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.34);
+}
+
+.or{
+  width: 285px;
+  margin: auto;
+  margin-top: 20px;
+  border-bottom: 2px solid rgba(175, 175, 175, 1);
+  height: 10px;
+}
+.or p {
+  background-color: white;
+  width: 50px;
+  margin: auto;
+  text-align: center;
+  color: grey;
+}
+
+.register{
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  
+}
+.register button{
+  height: 55px;
+  border: none;
+  outline: none;
+  border-radius: 17px;
+  background-color: rgba(96, 167, 94, 1);
+  color: white;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.1s;
+}
+.register button:active{
+  background-color: white;
+  color: rgba(96, 167, 94, 1);
+}
+.switch{
+  display: flex;
+  width: 190px;
+  margin: auto;
+  margin-top: 15px;
+  height: 40px;
+}
+
