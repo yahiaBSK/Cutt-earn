@@ -1,0 +1,80 @@
+@import url("/General style/general-style.css");
+
+
+.page-container{
+  width: 310px;
+  margin: auto;
+}
+.contact-us{
+  margin-top: px;
+}
+.contact-us input{
+  margin-top: 0px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 17px;
+  background-color: rgba(37, 145, 255, 0.125);
+  padding-left: 15px;
+  transition: 0.3s;
+}
+.contact-us input:hover, .contact-us input:focus{
+  box-shadow: 0 0 0 2px rgba(37, 145, 255, 0.50)
+}
+.contact-us p{
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#message{
+  height: 130px;
+  text-align: start;
+  margin-top: 0px;
+  width: 286.5px;
+  border: none;
+  outline: none;
+  border-radius: 17px;
+  background-color: rgba(37, 145, 255, 0.125);
+  padding: 15px;
+  transition: 0.3s;
+}
+#message:hover, #message:focus{
+  box-shadow: 0 0 0 2px rgba(37, 145, 255, 0.50)
+}
+.check-box {
+  display: flex;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.check-box input{
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+.check-box p{
+  font-size: 13px;
+}
+.check-box a{
+  text-decoration: none;
+  color: rgba(37, 145, 255, 1);
+}
+.contact-us button{
+   margin-top: 10px;
+   width: 315px;
+   height: 50px;
+   border: none;
+   outline: none;
+   border-radius: 17px;
+   background-color: rgba(37, 145, 255, 1);
+   color: white;
+   font-size: 16px;
+   transition: 0.3s;
+}
+.contact-us button:hover{
+  box-shadow: 0 0 0 2px rgba(37, 145, 255, 0.50);
+  background-color: white;
+  color: rgba(37, 145, 255, 1);
+}
