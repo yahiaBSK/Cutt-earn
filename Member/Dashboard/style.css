@@ -1,0 +1,238 @@
+@import url("/General style/general-style.css");
+
+
+.last-updates{
+  width: 300px;
+  margin: auto;
+}
+.last-updates h1{
+  font-size: 25px;
+  font-size: 600;
+  margin-bottom: 0;
+}
+.last-updates hr{
+  border: none;
+  outline: none;
+  height: 4px;
+  border-radius: 100px;
+  background-color: rgba(37, 145, 255, 1);
+  width: 170px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.last-updates div{
+  background-color: rgba(187, 196, 210, 0.10);
+  padding: 1px 15px 5px 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 0 3px rgba(187, 196, 210, 0.20);
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.last-updates #time{
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 215px;
+  background-color:  rgba(215, 208, 0, 0.20);
+  font-weight: 600;
+  font-size: 11px;
+  padding: 0 5px 0 5px;
+  border-radius: 5px;
+  color: dimgrey;
+}
+.last-updates h4{
+  margin-bottom: -10px;
+  color: rgba(37, 145, 255, 1);
+}
+.last-updates a{
+  text-decoration: none;
+  color: rgba(0, 61, 151, 1);
+}
+
+.account-updates{
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+}
+.account-updates #clicks {
+  display: flex;
+   padding: 10px;
+   border-radius: 25px;
+   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.account-updates #clicks img{
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+  margin-top: 17px;
+}
+.account-updates #clicks hr{
+  width: 4px;
+  background-color: rgba(0, 104, 240, 1);
+  border: none;
+  border-radius: 100px;
+  margin-left: 20px;
+  height: 70px;
+  margin-right: 0;
+}
+#clicks div{
+  margin: auto;
+  text-align: center;
+  margin-top: 17px;
+}
+#clicks-p{
+  color: rgb(0, 104, 240);
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+#clicks-v{
+  font-size: 20px;
+  background-color: rgba(0, 104, 240, 1);
+  border-radius: 5px;
+  padding: 0 8px 0 8px;
+  color: white;
+  margin-top: 0;
+  width: 100px;
+}
+
+
+.account-updates #earn {
+  display: flex;
+  margin-top: 10px;
+   padding: 10px;
+   border-radius: 25px;
+   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.account-updates #earn img{
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+  margin-top: 17px;
+}
+.account-updates #earn hr{
+  width: 4px;
+  background-color:rgb(0, 215, 193) ;
+  border: none;
+  border-radius: 100px;
+  margin-left: 20px;
+  height: 70px;
+  margin-right: 0;
+}
+
+#earn div{
+  margin: auto;
+  text-align: center;
+  margin-top: 17px;
+}
+#earn-p{
+  color: rgb(0, 215, 193);
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+#earn-v{
+  font-size: 20px;
+  background-color: rgba(0, 215, 193, 1);
+  border-radius: 5px;
+  padding: 0 8px 0 8px;
+  color: white;
+  margin-top: 0;
+  width: 100px;
+}
+
+
+.account-updates #ref {
+  display: flex;
+  margin-top: 10px;
+   padding: 10px;
+  border-radius: 25px;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.account-updates #ref img{
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+  margin-top: 17px;
+}
+.account-updates #ref hr{
+  width: 4px;
+  background-color: rgb(251, 1, 226) ;
+  border: none;
+  border-radius: 100px;
+  margin-left: 20px;
+  height: 70px;
+  margin-right: 0;
+}
+
+#ref div{
+  margin: auto;
+  text-align: center;
+  margin-top: 19.5px;
+}
+#ref-p{
+  color: rgb(251, 1, 226);
+  font-size: 17.5px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+#ref-v{
+  margin: auto;
+  font-size: 20px;
+  background-color: rgba(251, 1, 226, 1);
+  border-radius: 5px;
+  padding: 0 8px 0 8px;
+  color: white;
+  margin-top: 0;
+  width: 100px;
+}
+
+
+.account-updates #cpm {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.account-updates #cpm img{
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+  margin-top: 17px;
+}
+.account-updates #cpm hr{
+  width: 4px;
+  background-color: rgb(254, 172, 0) ;
+  border: none;
+  border-radius: 100px;
+  margin-left: 20px;
+  height: 70px;
+  margin-right: 0;
+}
+
+#cpm div{
+  margin: auto;
+  text-align: center;
+  margin-top: 17px;
+}
+#cpm-p{
+  color: rgb(254, 172, 0);
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+#cpm-v{
+  margin: auto;
+  font-size: 20px;
+  background-color: rgba(254, 172, 0, 1);
+  border-radius: 5px;
+  padding: 0 8px 0 8px;
+  color: white;
+  margin-top: 0;
+  width: 100px;
+}
