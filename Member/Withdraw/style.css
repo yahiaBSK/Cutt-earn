@@ -1,0 +1,208 @@
+@import url("/General style/general-style.css");
+
+.total-info{
+  text-align: center;
+  width: 320px;
+  margin: auto;
+}
+#div1, #div2, #div3{
+  height: auto;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-top: 95px;
+}
+.total-info span{
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.total-info p{
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+#icons-div{
+  background-color: rgba(19, 134, 0, 0.15);
+  width: 70px;
+  height: 68px;
+  margin: auto;
+  text-align: center;
+  border-radius: 100%;
+  margin-top: -85px;
+  border: none;
+  margin-bottom: 5px;
+}
+.total-info img{
+  width: 45px;
+  height: 45px;
+}
+#pending-icon{
+  margin-top: 11.5px;
+}
+#referrals-icon{
+  margin-top: 8.5px;
+}
+#total-withdraw-icon{
+  margin-top: 11px;
+}
+#div1 hr{
+  background-color: rgba(20, 190, 0, 1);
+  outline: none;
+  border: none;
+  height: 3px;
+  width: 165px;
+  border-radius: 50px;
+}
+#div2 hr{
+background-color: rgba(135, 48, 255,1);
+outline: none;
+border: none;
+height: 3px;
+width: 165px;
+border-radius: 100px;
+}
+#div3 hr{
+background-color: rgba(209, 221, 1);
+outline: none;
+border: none;
+height: 3px;
+width: 165px;
+border-radius: 100px;
+}
+
+#div1 div{
+  background-color: rgba(0, 185, 17, 1);
+}
+#div2 div{
+ background-color:  rgba(135, 48, 255, 1);
+}
+#div3 div{
+  background-color: rgba(215, 208, 0, 1)
+}
+#div1 p{
+  background-color: rgba(0, 185, 17, 0.15);
+  width: 100px;
+  height: 30px;
+  padding-top: 5px;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+#div2 p{
+  background-color: rgba(135, 48, 255, 0.15);
+  width: 100px;
+  height: 30px;
+  padding-top: 5px;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+#div3 p{
+  background-color: rgba(215, 208, 0, 0.15);
+  width: 100px;
+  height: 30px;
+  padding-top: 5px;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+.select-methods{
+  width: 320px;
+  margin: auto;
+  margin-top: 50px;
+}
+#select{
+  width: 100%;
+  height: 55px;
+  margin: auto;
+  border: none;
+  outline: none;
+  background-color: rgba(37, 145, 255, 0.15);
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 15px;
+  padding-left: 15px;
+  transition: 0.2s;
+}
+#select:focus, #select:hover{
+  box-shadow: 0 0 0 2px rgba(37, 145, 255, 0.50)
+}
+#withdraw-account {
+  width: 302.5px;
+  height: 55px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  background-color: rgba(37, 145, 255, 0.15);
+  margin-top: 15px;
+  transition: 0.2s;
+}
+#withdraw-account:focus, #withdraw-account:hover{
+  box-shadow: 0 0 0 2px rgba(37, 145, 255, 0.50)
+}
+
+.note, .note2{
+  width: 260px;
+  background-color: rgba(37, 145, 255, 0.20);
+  color: rgba(0, 71, 138, 0.80);
+  padding: 30px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 15px;
+  line-height: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.note span, .note2 span {
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.submit-div{
+  width: 320px;
+  margin: auto;
+  margin-top: 15px;
+  
+}
+.submit-div img{
+  width: 20px;
+  height: 20px;
+  margin-left: 90px;
+  margin-top: 17px;
+  position: absolute;
+  animation: submit-animation 1.5s infinite;
+}
+@keyframes submit-animation{
+  0%{
+    margin-left: 95px
+  }
+  50%{
+    margin-left: 85px;
+  }
+  100%{
+    margin-left: 95px;
+  }
+}
+.submit-div button{
+  width: 100%;
+  background-color: rgba(37, 145, 255, 1);
+  height: 55px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding-left: 20px;
+  transition: 0.2s;
+}
+
+.submit-div button:hover {
+  box-shadow: 0 0 0 2px rgba(37, 145, 255, 0.40);
+  background-color: white;
+  color: rgba(37, 145, 255, 1);
+  padding-left: 10px;
+}
