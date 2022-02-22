@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400&display=swap');
+
+
+*{
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white;
+  position: relative;
+  min-height: 100%;
+}
+.footer{
+  position: absolute;
+  text-align: center;
+  background-color: rgb(233, 245, 255, 1);
+  height: 130px;
+  color: rgb(98, 106, 124);
+  width: 100%;
+  bottom: -200px;
+}
+.footer p{
+  padding-top: 32.5px;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+.footer a{
+  text-decoration: none;
+  color: rgba(37, 145, 255, 0.70);
+}
+.container{
+  margin: auto;
+  width: 295px;
+  margin-top: 50px;
+}
+input{
+  margin-top: 15px;
+  width: 283px;
+  height: 55px;
+  border-radius: 17px;
+  padding-left: 10px;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  background-color: rgba(37, 145, 255, 0.10);
+  
+}
+input:hover{
+  box-shadow: 0 0 0 2px rgba(0, 111, 243, 0.35);
+}
+#email-label{
+  position: absolute;
+  margin-top: 34px;
+  color: grey;
+  margin-left: 30px;
+  width: 125px;
+  background-color: transparent;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.2s;
+  user-select: none;
+}
+#password-label{
+  position: absolute;
+  margin-top: 34px;
+  color: grey;
+  margin-left: 20px;
+  width: 85px;
+  background-color: transparent;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.2s;
+  user-select: none;
+}
+
+#email-label-on-input{
+  position: absolute;
+  margin-top: 7px;
+  color: grey;
+  width: 125px;
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  transition: 0.2s;
+  margin-left: 30px;
+  border-radius: 4px;
+  user-select: none;
+  box-shadow: 0 0 0 2px rgba(0, 111, 243, 0.35);
+}
+#password-label-on-input{
+  position: absolute;
+  margin-top: 7px;
+  color: grey;
+  width: 85px;
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  transition: 0.2s;
+  border-radius: 4px;
+  margin-left: 30px;
+  user-select: none;
+  box-shadow: 0 0 0 2px rgba(0, 111, 243, 0.35);
+}
+input[type=submit]{
+  margin-top: 15px;
+  height: 55px;
+  width: 295px;
+  font-weight: 500;
+  background-color: rgba(37, 145, 255, 1);
+  color: white;
+  transition: 0.1s;
+  border: none;
+  box-shadow: none;
+  font-size: 14px;
+  padding-top: 0;
+}
+input[type=submit]:active{
+  background-color: white;
+  color: rgba(37, 145, 255, 1);
+}
+h1{
+  font-weight: 900;
+}
+#fullname-label, #username-label, #email2-label, #password2-label {
+  position: absolute;
+  margin-top: 34px;
+  color: grey;
+  margin-left: 30px;
+  width: 120px;
+  background-color: transparent;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.2s;
+  user-select: none;
+}
+#email2-label{
+  margin-left: 15px;
+  user-select: none;
+}
+#animation{
+position: absolute;
+  margin-top: 7px;
+  color: grey;
+  width: 125px;
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  transition: 0.2s;
+  margin-left: 30px;
+  border-radius: 4px;
+  user-select: none;
+  box-shadow: 0 0 0 2px rgba(0, 111, 243, 0.35);
+}
+.or{
+  width: 285px;
+  margin: auto;
+  margin-top: 20px;
+  border-bottom: 2px solid rgba(175, 175, 175, 1);
+  height: 10px;
+}
+.or p {
+  background-color: white;
+  width: 50px;
+  margin: auto;
+  text-align: center;
+  color: grey;
+}
+.login{
+  margin-top: 30px;
+  text-align: center;
+  width: 295px;
+}
+.login p{
+  font-size: 16px;
+  
+}
+.login button{
+  width: 190px;
+  outline: none;
+  border: none;
+  background-color: rgba(96, 167, 94, 1);
+  border-radius: 17px;
+  height: 50px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+.login button:active{
+  color: rgba(96, 167, 94, 1);
+  background-color: white;
+}
