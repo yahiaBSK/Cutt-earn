@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/HomePages/style.css">
+    <meta name="theme-color" content="rgba(37, 145, 255, 1)"/>
+    <title>Home</title>
+</head>
+
+<body>
+  <div class="container-home">
+  <h1>HOME PAGE</h1>
+  <a href="/Login">Login to your account</a><br>
+  <a href="/Register">Register new account</a>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
