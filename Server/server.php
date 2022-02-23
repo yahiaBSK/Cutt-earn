@@ -11,7 +11,7 @@ session_start();
 
 // connect to database 
 
-@$conn = mysqli_connect('sql110.epizy.com','epiz_29037114','2usCB7xFaYk3','epiz_29037114_loginDB');
+@$conn = mysqli_connect('localhost:3306','root','root','loginDB');
 if (!$conn) {
   echo("<h2 style='color:red'>Connection to db error".mysqli_connect_error($conn)."</h2>");
 }
